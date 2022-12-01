@@ -1,0 +1,33 @@
+header {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-top: calc(8rem + 57px);
+  padding-bottom: 8rem;
+  background: no-repeat center center;
+  background-color: #404344;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+header:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header h1 {
+  font-size: 5rem;
+}
+
+header .subheading {
+  line-height: 1.1;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.75rem 0 2rem;
+}
